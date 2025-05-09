@@ -1,52 +1,68 @@
 body {
   margin: 0;
-  background: #fff;
-  font-family: sans-serif;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .container {
   text-align: center;
-  max-width: 900px;
-  width: 100%;
 }
 
-.handwritten {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto 2rem;
-  display: block;
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-family: 'Pacifico', cursive;
 }
 
-.icons {
+.social-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1em;
 }
 
-.icon {
-  width: 64px;
-  height: 64px;
-  display: inline-flex;
-  justify-content: center;
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
   align-items: center;
-  border-radius: 12px;
-  background-color: #eee;
-  color: white;
+  justify-content: center;
   transition: transform 0.2s;
 }
 
-.icon:hover {
+.btn img {
+  width: 40px;
+  height: 40px;
+}
+
+.btn:hover {
   transform: scale(1.1);
 }
 
-.twitch { background-color: #9146FF; }
-.youtube { background-color: #FF0000; }
-.tiktok { background-color: #000; }
-.twitter { background-color: #1DA1F2; }
-.instagram { background-color: #FFD700; }
+.twitch {
+  background-color: #6441a5;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.tiktok {
+  background-color: #000000;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
